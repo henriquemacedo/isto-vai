@@ -1,35 +1,76 @@
-html,
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Rubik Light"), url("../public/fonts/Rubik/static/Rubik-Light.woff2") format("woff2"),
+    url("../public/fonts/Rubik/static/Rubik-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Rubik Regular"), local("Rubik-Regular"),
+    url("../public/fonts/Rubik/static/Rubik-Regular.woff2") format("woff2"),
+    url("../public/fonts/Rubik/static/Rubik-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local("Rubik Black"), local("Rubik-Black"), url("../public/fonts/Rubik/static/Rubik-Black.woff2") format("woff2"),
+    url("../public/fonts/Rubik/static/Rubik-Black.woff") format("woff");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  --default: #212121;
+  --light: #ffffff;
+  --yellow: #f5e7ad;
+  --lightBrown: #946037;
+  --darkBrown: #4d352d;
+  --fontLight: 300;
+  --fontRegular: 400;
+  --fontBlack: 900;
+  --lineHeight: 150%;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (min-width: 700px) {
+  html {
+    font-size: 18px;
+  }
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Open Sans", "Roboto", "Segoe UI", Oxygen, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
+  font-size: 1rem;
+  font-weight: var(--fontLight, 300);
+  color: var(--default, #212121);
+  background-color: var(--light, #ffffff);
+  overflow-x: hidden;
 }
 
-* {
-  box-sizing: border-box;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
-}
-
-.container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
