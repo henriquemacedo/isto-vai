@@ -37,9 +37,7 @@
 :root {
   --default: #212121;
   --light: #ffffff;
-  --yellow: #f5e7ad;
-  --lightBrown: #946037;
-  --darkBrown: #4d352d;
+  --yellow: #FFE900;
   --fontLight: 300;
   --fontRegular: 400;
   --fontBlack: 900;
@@ -61,11 +59,45 @@ body {
   margin: 0;
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Open Sans", "Roboto", "Segoe UI", Oxygen, Ubuntu, Cantarell,
     "Helvetica Neue", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: var(--fontLight, 300);
   color: var(--default, #212121);
   background-color: var(--light, #ffffff);
   overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4{
+  margin: 0;
+  text-rendering: optimizeSpeed;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: var(--fontBlack);
+  text-transform: uppercase;
+  /* color: var(--lightBrown); */
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: var(--fontBlack);
+}
+
+p {
+  margin: 0;
+  line-height: var(--lineHeight);
+  text-rendering: optimizeSpeed;
+}
+
+p:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+mark {
+  background-color: var(--yellow);
 }
 
 @media (prefers-reduced-motion: no-preference) {
