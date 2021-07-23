@@ -11,7 +11,7 @@ export const Stripes = styled.div`
     var(--default) ${rem("40px")}
   );
   width: 100%;
-  height: ${rem("40px")};
+  height: 3rem;
 `;
 
 export const Hero = styled.div`
@@ -28,7 +28,7 @@ export const Hero = styled.div`
   }
 
   @media ${device.l} {
-    padding: ${rem("50px")} 35vw ${rem("50px")} ${rem("50px")};
+    padding-right: 35vw;
   }
 `;
 

@@ -5,9 +5,9 @@ const logo = "/images/isto-vai--pedalar-na-bosta.svg";
 export default function Featured() {
   return (
     <Styles.Wrapper>
-      <div>
+      <div className="content">
         <h2>Pedalar na Bosta</h2>
-        <span>4 de Agosto — 21:30</span>
+        <span>4 de agosto — 21:30</span>
         <p>
           Em 2005, os <mark>Ena Pá 2000 lançavam o álbum</mark> "20 Anos a
           Pedalar na Bosta". Em 2021,{" "}

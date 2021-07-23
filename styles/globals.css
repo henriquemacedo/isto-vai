@@ -55,7 +55,7 @@ html {
 }
 
 body {
-  padding: 0;
+  padding: 0 3rem 3rem 3rem;
   margin: 0;
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Open Sans", "Roboto", "Segoe UI", Oxygen, Ubuntu, Cantarell,
     "Helvetica Neue", sans-serif;
@@ -75,10 +75,9 @@ h4{
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: var(--fontBlack);
   text-transform: uppercase;
-  /* color: var(--lightBrown); */
 }
 
 h2 {
@@ -94,10 +93,6 @@ p {
 
 p:not(:last-child) {
   margin-bottom: 0.5rem;
-}
-
-mark {
-  background-color: var(--yellow);
 }
 
 @media (prefers-reduced-motion: no-preference) {

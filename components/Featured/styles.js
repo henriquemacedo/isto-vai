@@ -4,9 +4,7 @@ import { device } from "@utils/breakpoints";
 
 export const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-gap: ${rem("30px")};
-  padding: ${rem("30px")};
+  grid-template-columns: 1fr 1fr;
 
   > div {
     span {
@@ -19,21 +17,29 @@ export const Wrapper = styled.div`
       margin-top: ${rem("30px")};
     }
 
+    &.content {
+      padding: ${rem("30px")};
+
+      @media ${device.s} {
+        padding: ${rem("100px")} ${rem("50px")};
+      }
+    }
+
     &.image {
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
 
       img {
-        max-width: 100%;
+        position: absolute;
         width: auto;
-        height: 100%;
+        height: 150%;
       }
     }
   }
 
-  @media ${device.s} {
-    padding: ${rem("50px")};
-    grid-gap: ${rem("50px")};
+  mark {
+    background-color: var(--yellow);
   }
 `;
