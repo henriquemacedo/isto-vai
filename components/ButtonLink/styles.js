@@ -19,4 +19,9 @@ export const Button = styled.a`
   white-space: nowrap;
   transition-duration: 0.3s;
   cursor: pointer;
+
+  svg {
+    width: auto;
+    height: ${rem("36px")};
+  }
 `;
