@@ -18,3 +18,11 @@ export const Wrapper = styled.div`
     padding: ${rem("50px")} ${rem("50px")} 0 ${rem("50px")};
   }
 `;
+
+export const BackButton = styled.div`
+  margin-top: 2rem;
+
+  @media ${device.m} {
+    margin-top: ${rem("50px")};
+  }
+`;
