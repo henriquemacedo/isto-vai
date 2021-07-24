@@ -50,7 +50,7 @@ html {
 }
 
 body {
-  padding: 0 1rem 1rem 1rem;
+  padding: 0;
   margin: 0;
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Open Sans", "Roboto", "Segoe UI", Oxygen, Ubuntu, Cantarell,
     "Helvetica Neue", sans-serif;
@@ -72,6 +72,7 @@ h4{
 h1 {
   font-size: 3rem;
   font-weight: var(--fontBlack);
+  line-height: 100%;
   text-transform: uppercase;
 }
 
@@ -93,6 +94,10 @@ p:not(:last-child) {
 @media (min-width: 700px) {
   html {
     font-size: 18px;
+  }
+
+  body {
+    padding: 0 1rem 1rem 1rem;
   }
 
   h1 {

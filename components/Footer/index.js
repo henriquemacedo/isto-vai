@@ -2,8 +2,55 @@ import Link from "next/link";
 import Icon from "@components/Icon";
 import * as Styles from "./styles";
 
-export default function Footer(props) {
-  const { social, contacts } = props;
+export default function Footer() {
+  const social = [
+    {
+      channel: "youtube",
+      url: "#0",
+      name: "YouTube",
+    },
+    {
+      channel: "twitter",
+      url: "#0",
+      name: "Twitter",
+    },
+    {
+      channel: "facebook",
+      url: "#0",
+      name: "Facebook",
+    },
+    {
+      channel: "spotify",
+      url: "#0",
+      name: "Spotify",
+    },
+    {
+      channel: "apple",
+      url: "#0",
+      name: "Apple Podcasts",
+    },
+    {
+      channel: "google",
+      url: "#0",
+      name: "Google Podcasts",
+    },
+    {
+      channel: "rss",
+      url: "#0",
+      name: "RSS",
+    },
+  ];
+
+  const contacts = [
+    {
+      url: "mailto:istovaidarmerda.online@gmail.com",
+      value: "Email",
+    },
+    {
+      url: "https://twitter.com/SoniaTelesF",
+      value: "@SoniaTelesF",
+    },
+  ];
 
   return (
     <Styles.Wrapper>

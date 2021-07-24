@@ -1,5 +1,5 @@
 import Header from "@components/Header";
-import Intro from "@components/Intro";
+import Hero from "@components/Hero";
 import Featured from "@components/Featured";
 import Ivdm from "@components/Ivdm";
 import Partners from "@components/Partners";
@@ -54,63 +54,14 @@ export default function Home() {
     },
   ];
 
-  const social = [
-    {
-      channel: "youtube",
-      url: "#0",
-      name: "YouTube",
-    },
-    {
-      channel: "twitter",
-      url: "#0",
-      name: "Twitter",
-    },
-    {
-      channel: "facebook",
-      url: "#0",
-      name: "Facebook",
-    },
-    {
-      channel: "spotify",
-      url: "#0",
-      name: "Spotify",
-    },
-    {
-      channel: "apple",
-      url: "#0",
-      name: "Apple Podcasts",
-    },
-    {
-      channel: "google",
-      url: "#0",
-      name: "Google Podcasts",
-    },
-    {
-      channel: "rss",
-      url: "#0",
-      name: "RSS",
-    },
-  ];
-
-  const contacts = [
-    {
-      url: "mailto:istovaidarmerda.online@gmail.com",
-      value: "Email",
-    },
-    {
-      url: "https://twitter.com/SoniaTelesF",
-      value: "@SoniaTelesF",
-    },
-  ];
-
   return (
     <main>
       <Header title="Isto Vai" />
-      <Intro />
+      <Hero />
       <Featured />
       <Ivdm />
       <Partners partners={partners} />
-      <Footer social={social} contacts={contacts} />
+      <Footer />
     </main>
   );
 }

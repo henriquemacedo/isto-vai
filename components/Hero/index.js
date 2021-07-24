@@ -1,14 +1,15 @@
 import { useState } from "react";
+import Stripes from "@components/Stripes";
 import Button from "@components/Button";
 import * as Styles from "./styles";
 
-export default function Intro() {
+export default function Hero() {
   const [showShort, setShowShort] = useState(true);
   const [showLong, setShowLong] = useState(false);
 
   return (
     <>
-      <Styles.Stripes />
+      <Stripes />
       <Styles.Hero>
         <h1>Isto Vai</h1>
         <h2>Um conceito global dentro da máxima quem avisa, amigo é.</h2>

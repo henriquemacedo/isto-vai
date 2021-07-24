@@ -6,7 +6,7 @@ export default function Featured() {
   return (
     <Styles.Wrapper>
       <div className="content">
-        <h2>Pedalar na Bosta</h2>
+        <h2>Isto Vai Pedalar na Bosta</h2>
         <span>4 de agosto — 21:30</span>
         <p>
           Em 2005, os <mark>Ena Pá 2000 lançavam o álbum</mark> "20 Anos a

@@ -3,11 +3,11 @@ import { rem } from "polished";
 import { device } from "@utils/breakpoints";
 
 export const Wrapper = styled.div`
-  margin-top: 3rem;
   background-color: var(--blue);
   padding: ${rem("15px")};
 
   @media ${device.s} {
+    margin-top: 3rem;
     padding: ${rem("50px")};
   }
 `;
