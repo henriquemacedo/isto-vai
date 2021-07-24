@@ -3,9 +3,9 @@
 ### This Will (Isto Vai)
 Some things just aren’t translatable. We are one of those things. We aren’t exactly an event. Nor are we a podcast or a conference. Debate? Not really. We’re more of a happening. We happen. Only online, when we feel we should, with whichever issue tickles our fancy, with whomever we know can keep up and not scare easily.
 
-The first time we happened, we were called Isto Vai Dar Merda. Loosely translated, it means Shit Is Going To Hit the Fan. It’s an expression, a Portuguese expression used when there’s a warning to be issued. Somebody does something, and somebody else lets out an Isto Vai Dar Merda to warn of the consequences of what that person did. We use the expression a lot. We’re from Portugal.
+The first time we happened, we were called [Isto Vai Dar Merda](https://github.com/henriquemacedo/istovaidarmerda.online). Loosely translated, it means Shit Is Going To Hit the Fan. It’s an expression, a Portuguese expression used when there’s a warning to be issued. Somebody does something, and somebody else lets out an Isto Vai Dar Merda to warn of the consequences of what that person did. We use the expression a lot. We’re from Portugal.
 
-No other cluster of words could better express what we wanted to communicate when we realised the shit we were in due to the Covid-19 pandemic. Shit wasn’t just going to hit the fan; it was going to destroy it. So, instead of just complaining about the obvious, we rolled our sleeves up and created an online happening about the pandemic.
+No other cluster of words could better express what we wanted to communicate when we realised the shit we were in due to the COVID-19 pandemic. Shit wasn’t just going to hit the fan; it was going to destroy it. So, instead of just complaining about the obvious, we rolled our sleeves up and created an online happening about the pandemic.
 
 We selected issues that were already or going to be hard hit, invited experts to talk about them and opened the doors to our No Bullshit space. That’s our only rule: no bullshit, no sugar-coating, no saying one thing while meaning another, no generating confusion and doubt where clarity and helpful information are most needed. Absolutely no bullshit.
 
