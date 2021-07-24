@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 import { rem } from "polished";
 import { device } from "@utils/breakpoints";
 
@@ -22,7 +22,38 @@ export const Hero = styled.div`
     font-weight: var(--fontBlack);
   }
 
+  div {
+    &.image {
+      display: none;
+    }
+  }
+
   @media ${device.m} {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: ${rem("15px")};
     padding: ${rem("50px")} 25vw ${rem("50px")} ${rem("50px")};
+
+    ${(props) =>
+      props.image != "" &&
+      css`
+        grid-template-columns: 2fr 1fr;
+        padding: ${rem("50px")};
+      `}
+
+    div {
+      width: 100%;
+
+      &.image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 100%;
+          max-height: ${rem("400px")};
+        }
+      }
+    }
   }
 `;
