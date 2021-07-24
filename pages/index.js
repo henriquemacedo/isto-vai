@@ -14,7 +14,7 @@ export default function Home() {
     },
     {
       image: "/images/partners/casa-fontes.svg",
-      name: "ISCA BIKES",
+      name: "Casa Fontes - Turismo Rural",
       url: "https://www.casafontes.com",
     },
     {
@@ -24,8 +24,13 @@ export default function Home() {
     },
     {
       image: "/images/partners/isca-logo.svg",
-      name: "Casa Fontes - Turismo Rural",
+      name: "ISCA BIKES",
       url: "http://www.isca.bike",
+    },
+    {
+      image: "/images/partners/square-panda.svg",
+      name: "squarepanda",
+      url: "https://squarepanda.pt/",
     },
     {
       image: "/images/partners/n2-podcast.svg",
