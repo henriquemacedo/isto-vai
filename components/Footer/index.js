@@ -6,37 +6,37 @@ export default function Footer() {
   const social = [
     {
       channel: "youtube",
-      url: "#0",
+      url: "https://www.youtube.com/channel/UC-M0MHRa0CNewKhjCz4c2Qg",
       name: "YouTube",
     },
     {
       channel: "twitter",
-      url: "#0",
+      url: "https://twitter.com/IstoVai",
       name: "Twitter",
     },
     {
       channel: "facebook",
-      url: "#0",
+      url: "https://www.facebook.com/WorldFailurists",
       name: "Facebook",
     },
     {
       channel: "spotify",
-      url: "#0",
+      url: "https://open.spotify.com/show/6R6RisJT1Ogk2zc67j7MMc",
       name: "Spotify",
     },
     {
       channel: "apple",
-      url: "#0",
+      url: "https://podcasts.apple.com/pt/podcast/isto-vai/id1549116254",
       name: "Apple Podcasts",
     },
     {
       channel: "google",
-      url: "#0",
+      url: "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80N2MzNTBhNC9wb2RjYXN0L3Jzcw==",
       name: "Google Podcasts",
     },
     {
       channel: "rss",
-      url: "#0",
+      url: "https://anchor.fm/s/47c350a4/podcast/rss",
       name: "RSS",
     },
   ];
