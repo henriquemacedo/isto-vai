@@ -3,9 +3,6 @@ import { rem } from "polished";
 import { device } from "@utils/breakpoints";
 
 export const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
   > div {
     span {
       display: inline-block;
@@ -18,28 +15,50 @@ export const Wrapper = styled.div`
     }
 
     &.content {
-      padding: ${rem("30px")};
-
-      @media ${device.s} {
-        padding: ${rem("100px")} ${rem("50px")};
-      }
+      padding: 2rem 1rem;
     }
 
     &.image {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      img {
-        position: absolute;
-        width: auto;
-        height: 150%;
-      }
+      display: none;
     }
   }
 
   mark {
     background-color: var(--yellow);
+  }
+
+  @media ${device.m} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    > div {
+      &.content {
+        padding: ${rem("100px")} ${rem("50px")};
+      }
+
+      &.image {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          position: absolute;
+          width: auto;
+          height: 110%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  @media ${device.l} {
+    > div {
+      &.image {
+        img {
+          height: 150%;
+        }
+      }
+    }
   }
 `;

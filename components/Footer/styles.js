@@ -1,15 +1,15 @@
 import styled from "styled-components";
 import { rem } from "polished";
+import { device } from "@utils/breakpoints";
 
 export const Wrapper = styled.div`
-  margin-top: 3rem;
-  display: flex;
-  justify-content: space-between;
+  margin: 3rem 0 2rem 0;
 
   > div {
     ul {
       margin: 0;
       display: flex;
+      justify-content: center;
       padding: 0;
 
       li {
@@ -46,11 +46,26 @@ export const Wrapper = styled.div`
     }
 
     &.social {
+      margin-bottom: ${rem("15px")};
+
       li {
         --size: ${rem("30px")};
         width: var(--size);
         height: var(--size);
       }
     }
+  }
+
+  @media ${device.s} {
+    display: flex;
+    justify-content: space-between;
+
+    > div.social {
+      margin-bottom: 0;
+    }
+  }
+
+  @media ${device.m} {
+    margin: 3rem 0 0 0;
   }
 `;

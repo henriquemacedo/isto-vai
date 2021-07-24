@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   background-image: url("/images/poop-pattern.svg");
   background-repeat: repeat;
   background-position: center;
-  padding: ${rem("30px")};
+  padding: 2rem 1rem;
 
   span {
     display: inline-block;
@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
     margin-top: ${rem("30px")};
   }
 
-  @media ${device.s} {
+  @media ${device.m} {
     padding: ${rem("100px")} 25vw ${rem("100px")} ${rem("50px")};
   }
 

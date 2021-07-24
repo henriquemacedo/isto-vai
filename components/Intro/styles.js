@@ -11,19 +11,19 @@ export const Stripes = styled.div`
     var(--default) ${rem("40px")}
   );
   width: 100%;
-  height: 3rem;
+  height: 2rem;
 `;
 
 export const Hero = styled.div`
   margin-top: ${rem("5px")};
   background-color: var(--yellow);
-  padding: ${rem("30px")};
+  padding: 2rem 1rem;
 
   h2 {
     margin-bottom: ${rem("50px")};
   }
 
-  @media ${device.s} {
+  @media ${device.m} {
     padding: ${rem("50px")} 25vw ${rem("50px")} ${rem("50px")};
   }
 

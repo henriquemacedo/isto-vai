@@ -5,7 +5,7 @@ import { device } from "@utils/breakpoints";
 export const Wrapper = styled.div`
   margin-top: 3rem;
   background-color: var(--blue);
-  padding: ${rem("30px")};
+  padding: ${rem("15px")};
 
   @media ${device.s} {
     padding: ${rem("50px")};
@@ -37,10 +37,14 @@ export const PartnersGrid = styled.div`
     }
 
     @media ${device.s} {
-      width: 25%;
+      width: 33%;
     }
 
     @media ${device.m} {
+      width: 25%;
+    }
+
+    @media ${device.l} {
       width: 15%;
     }
   }
