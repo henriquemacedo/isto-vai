@@ -33,6 +33,11 @@ export default function Home() {
       url: "https://squarepanda.pt/",
     },
     {
+      image: "/images/partners/picselworks.svg",
+      name: "Picselworks",
+      url: "https://website-286603728600092778229-photographer.negocio.site",
+    },
+    {
       image: "/images/partners/n2-podcast.svg",
       name: "Nacional 2 Podcast",
       url: "https://nacional2podcast.pt",

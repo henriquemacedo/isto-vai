@@ -15,11 +15,6 @@ export default function PedalarNaBosta() {
       url: "https://inglesparamarketing.com",
     },
     {
-      image: "/images/partners/casa-fontes.svg",
-      name: "Casa Fontes - Turismo Rural",
-      url: "https://www.casafontes.com",
-    },
-    {
       image: "/images/partners/ubirider.svg",
       name: "Ubirider",
       url: "https://ubirider.com",
@@ -33,6 +28,11 @@ export default function PedalarNaBosta() {
       image: "/images/partners/square-panda.svg",
       name: "squarepanda",
       url: "https://squarepanda.pt/",
+    },
+    {
+      image: "/images/partners/picselworks.svg",
+      name: "Picselworks",
+      url: "https://website-286603728600092778229-photographer.negocio.site",
     },
   ];
 
