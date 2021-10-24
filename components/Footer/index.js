@@ -15,6 +15,11 @@ export default function Footer() {
       name: "Twitter",
     },
     {
+      channel: "instagram",
+      url: "https://instagram.com/isto.vai",
+      name: "Instagram",
+    },
+    {
       channel: "facebook",
       url: "https://www.facebook.com/WorldFailurists",
       name: "Facebook",

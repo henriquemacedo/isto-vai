@@ -1,23 +1,21 @@
 import ButtonLink from "@components/ButtonLink";
 import * as Styles from "./styles";
-const logo = "/images/isto-vai--pedalar-na-bosta.svg";
+const logo = "/images/ivdm-estado-da-nacao.svg";
 
 export default function Featured() {
   return (
     <Styles.Wrapper>
       <div className="content">
-        <h2>Isto Vai Pedalar na Bosta</h2>
-        <span>4 de agosto — 21:30</span>
+        <h2>Isto Vai Dar Merda - Estado da Nação</h2>
+        <span>26 de outubro - 7 de novembro</span>
         <p>
-          Em 2005, os <mark>Ena Pá 2000 lançavam o álbum</mark> "20 Anos a
-          Pedalar na Bosta". Em 2021,{" "}
-          <mark>o Isto Vai lançava o seu primeiro evento</mark>, o "Isto Vai Dar
-          Merda".{" "}
-          <mark>
-            Juntar os dois pareceu-nos algo natural, óbvio, necessário, até.
-          </mark>
+          Estamos <mark>fartos desta merda</mark>. Vamos fazer uma{" "}
+          <mark>manifestação nacional com piaçabas</mark> com o objectivo de ser
+          a maior mostra de descontentamento alguma vez vista em Portugal,
+          participada pelos que acreditam que{" "}
+          <mark>o futuro não tem de conter o pior do nosso passado</mark>.
         </p>
-        <ButtonLink href="/pedalar-na-bosta" value="Saber Mais" />
+        <ButtonLink href="/estado-da-nacao" value="Saber Mais" />
       </div>
       <div className="image">
         <img src={logo} alt="Isto Vai — Pedalar na Bosta" />

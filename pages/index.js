@@ -1,6 +1,7 @@
 import Header from "@components/Header";
 import Hero from "@components/Hero";
 import Featured from "@components/Featured";
+import PedalarNaBosta from "@components/PedalarNaBosta";
 import Ivdm from "@components/Ivdm";
 import Partners from "@components/Partners";
 import Footer from "@components/Footer";
@@ -64,6 +65,7 @@ export default function Home() {
       <Header title="Isto Vai" />
       <Hero />
       <Featured />
+      <PedalarNaBosta />
       <Ivdm />
       <Partners partners={partners} />
       <Footer />
