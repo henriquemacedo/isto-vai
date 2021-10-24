@@ -9,8 +9,11 @@ export default function Featured() {
         <h2>Isto Vai Dar Merda - Estado da Nação</h2>
         <span>26 de outubro - 7 de novembro</span>
         <p>
-          Estamos <mark>fartos desta merda</mark> toda. Vamos encher Portugal de{" "}
-          <mark>piaçabas</mark> para ajudar a limpar esta merda toda.
+          Estamos <mark>fartos desta merda</mark>. Vamos fazer uma{" "}
+          <mark>manifestação nacional com piaçabas</mark> com o objectivo de ser
+          a maior mostra de descontentamento alguma vez vista em Portugal,
+          participada pelos que acreditam que{" "}
+          <mark>o futuro não tem de conter o pior do nosso passado</mark>.
         </p>
         <ButtonLink href="/estado-da-nacao" value="Saber Mais" />
       </div>

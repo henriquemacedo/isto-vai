@@ -30,6 +30,15 @@ export const Wrapper = styled.div`
       }
     }
 
+    &.instagram {
+      border-color: ${darken(0.1, "rgb(16, 127, 244)")};
+      background-color: rgb(16, 127, 244);
+
+      &:hover {
+        background-color: rgb(16, 100, 244);
+      }
+    }
+
     svg {
       fill: var(--light);
     }
